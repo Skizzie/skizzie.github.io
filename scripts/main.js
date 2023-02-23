@@ -75,13 +75,13 @@ async function getInputValue(){
     createCode("clear", "Clears the terminal.");
   }
 
-  else if(value == "sudo"){
+  else if(value === "sudo"){
     createText(`command not found: ${value}`)
     createText("Type 'help' to see more!")
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
-  else if(value == "exit"){
-    closeWindow();
+  else if(value === "skr"){
+    window.open('https://www.youtube.com/watch?v=3M_5oYU-IsU');
   }
   else if(value === "projects"){
     trueValue(value);
