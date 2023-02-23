@@ -70,16 +70,16 @@ async function getInputValue(){
     createCode("socials", "All my social networks.");
     createCode("clear", "Clears the terminal.");
   }
-  
+
   else if(value == "sudo"){
     createText(`command not found: ${value}`)
     createText("Type 'help' to see more!")
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
   }
-  else if(value == "quit"){
+  else if(value == "ahojky"){
     createText(`command not found: ${value}`)
     createText("Type 'help' to see more!")
-    window.close();
+    window.close('');
   }
   else if(value === "projects"){
     trueValue(value);
