@@ -89,7 +89,7 @@ async function getInputValue(){
   else if(value === "exit"){
     createText(`command not found: ${value}`);
     createText("Type 'help' to see more!");
-    window.close();
+    closeWindow
   }
   else if(value === "projects"){
     trueValue(value);
