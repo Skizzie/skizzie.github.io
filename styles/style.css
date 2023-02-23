@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:content-box;
+}
+.white{
+  color:rgb(238, 238, 238);
+}
+.blue{
+  color:#9CEAF3;
+}
+a{
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}
+body{
+  background-image:url("/images/wallpaper.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  font-family: 'Ubuntu';
+  font-weight:bold;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  max-width:1000px;
+  height:500px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid gray;
+  margin:20px;
+  cursor: text;
+}
+.menu{
+  display:flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  width: 600%;
+  height: 24px;
+  background-color: #424040;
+  padding: 0 8px;
+  cursor:default;
+}
+.menu h1{
+  font-size:13px;
+  color:#9c9c9c;
+}
+
+#app{
+  display:flex;
+  flex-direction: column;
+  background-color:#00000087;
+  width:100%;
+  height:100%;
+  padding:8px;
+  overflow: auto;
+}
+p{
+  font-size:16px;
+  color:rgb(238, 238, 238);
+  padding:8px 0;
+}
+h2{
+  font-size:16px;
+  color:rgb(238, 238, 238);
+}
+p.code{
+  color:#66C2CD;
+  margin-left:8px;
+}
+span.text{
+  margin-left:16px;
+  color:white;
+}
+p.path{
+  color:#F7FCA0;
+}
+p.path span{
+  color:#6A77D2;
+}
+p.path span1 + span2{
+  color:#9CEAF3;
+}
+p.path span3 {
+  color:#ffffff;
+}
+
+.sucess{
+  color:#5AD786;
+}
+.error{
+  color:#ff1500;
+}
+p.response{
+  color:rgb(238, 238, 238);
+}
+
+input{
+  border:none;
+  background-color: unset;
+  color:rgb(238, 238, 238);
+  width:100%;
+  font-size:16px;
+  font-family: 'Ubuntu';
+  font-weight:bold;
+}
+input:focus{
+  border:none;
+  outline: none;
+  box-shadow: none;
+  background-color: unset;
+  
+}
+.type{
+  display:flex;
+  align-items: center;
+  padding:8px 0;
+}
+.type2{
+  display:flex;
+  align-items: center;
+  padding:8px 0;
+}
