@@ -81,8 +81,6 @@ async function getInputValue(){
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
   }
   else if(value == "exit"){
-    createText(`command not found: ${value}`)
-    createText("Type 'help' to see more!")
     closeWindow();
   }
   else if(value === "projects"){
