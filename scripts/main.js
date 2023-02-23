@@ -98,7 +98,7 @@ async function getInputValue(){
   else if(value === "whoami"){
     trueValue(value);
     createText("Hello, my name is Kamil H.")
-    createText("I am a 22 years old life enjoyer, I speedrun videogames and I like coding. I discovered coding when I was 14 years old, and since then, I began my coding journey. Even though I learned the basics, I put this skill aside for a long time. I now try to develop my skill and become better coder. I mainly code in <span class='blue'>Javascript, CSS<span class='white'> and I do<span class='blue'> HTML </span>")
+    createText("I am a 22 years old life enjoyer, I speedrun videogames and I like coding. I discovered coding when I was 14 years old, and since then, I began my coding journey. Even though I learned the basics, I put this skill aside for a long time. I now try to develop my skill and become a better coder. I mainly code in <span class='blue'>Javascript, CSS<span class='white'> and I do<span class='blue'> HTML </span>")
   }
   else if(value === "socials"){
     trueValue(value);
