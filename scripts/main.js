@@ -81,8 +81,6 @@ async function getInputValue(){
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
   else if(value === "skr"){
-    createText(`command not found: ${value}`);
-    createText("Type 'help' to see more!");
     window.open('https://www.youtube.com/watch?v=3M_5oYU-IsU');
   }
   
