@@ -1,3 +1,3 @@
 # skizzie.github.io
- My portfolio site.
+[My portfolio site](https://skizzie.github.io/)
 ###### skizziespeedruns@gmail.com
