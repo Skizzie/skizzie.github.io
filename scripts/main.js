@@ -76,6 +76,7 @@ async function getInputValue(){
   }
 
   else if(value === "sudo"){
+    falseValue(value);
     createText(`command not found: ${value}`)
     createText("Type 'help' to see more!")
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
@@ -85,9 +86,10 @@ async function getInputValue(){
   }
   
   else if(value === "exit"){
+    falseValue(value);
     createText(`command not found: ${value}`);
     createText("Type 'help' to see more!");
-    closeWindow
+    window.close();
   }
   else if(value === "projects"){
     trueValue(value);
