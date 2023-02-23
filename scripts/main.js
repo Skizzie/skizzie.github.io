@@ -28,12 +28,7 @@ async function open_terminal(){
   new_line();
 }
 
-function closeWindow() { 
-  window.open('','_parent',''); 
-  window.close(); 
-}
-
-function new_line(){
+ function new_line(){
   
   const p = document.createElement("p");
   const span1 = document.createElement("span1");
@@ -81,16 +76,19 @@ async function getInputValue(){
     createText("Type 'help' to see more!")
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
-  else if(value === "skr"){
-    window.open('https://www.youtube.com/watch?v=3M_5oYU-IsU');
+
+  else if(value === "quit"){
+    createText(`command not found: ${value}`)
+    createText("Type 'help' to see more!")
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
-  
+
   else if(value === "exit"){
-    falseValue(value);
-    createText(`command not found: ${value}`);
-    createText("Type 'help' to see more!");
-    closeWindow();
+    createText(`command not found: ${value}`)
+    createText("Type 'help' to see more!")
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
   }
+
   else if(value === "projects"){
     trueValue(value);
     createText("<a href='https://github.com/skizzie' target='_blank'><i class='fab fa-github white'></i> github.com/skizzie</a>")
