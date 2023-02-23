@@ -78,7 +78,7 @@ async function getInputValue(){
     createText("Type 'help' to see more!")
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
   }
-  else if(value == "exit"){
+  else if(value == "quit"){
     createText(`command not found: ${value}`)
     createText("Type 'help' to see more!")
     window.close();
