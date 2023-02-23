@@ -28,6 +28,10 @@ async function open_terminal(){
   new_line();
 }
 
+function closeWindow() { 
+  window.open('','_parent',''); 
+  window.close(); 
+}
 
 function new_line(){
   
@@ -76,10 +80,10 @@ async function getInputValue(){
     createText("Type 'help' to see more!")
     window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
   }
-  else if(value == "ahojky"){
+  else if(value == "exit"){
     createText(`command not found: ${value}`)
     createText("Type 'help' to see more!")
-    window.close('');
+    closeWindow();
   }
   else if(value === "projects"){
     trueValue(value);
