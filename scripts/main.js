@@ -102,7 +102,7 @@ async function getInputValue(){
   }
   else if(value === "socials"){
     trueValue(value);
-    createText("<a href='https://reddit.com/Skizzie_/' target='_blank'><i class='fab fa-reddit white'></i> reddit.com/skizzie</a>")
+    createText("<a href='https://reddit.com/user/Skizzie_/' target='_blank'><i class='fab fa-reddit white'></i> reddit.com/skizzie</a>")
     createText("<a href='https://www.speedrun.com/Skizzie/' target='_blank'><i class='fab fa-reddit white'></i> speedrun.com/skizzie</a>")
     createText("<a href='https://www.twitch.tv/Skizziespeedruns/' target='_blank'><i class='fab fa-reddit white'></i> twitch.tv/skizziespeedruns</a>")
     createText("<a href='https://www.twitter.com/skizziexd' target='_blank'><i class='fab fa-reddit white'></i> twitter.com/skizziexd</a>")
